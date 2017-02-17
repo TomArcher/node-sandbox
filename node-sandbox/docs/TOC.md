@@ -6,6 +6,7 @@
 # [How to](#)
 
 # [NuGet packages](packages.md)
+## [Storage](packages-storage.md)
 
 # [Reference](#)
 ## [Autogen'd Topic 1](#)
