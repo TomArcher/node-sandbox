@@ -1,12 +1,12 @@
 # [Overview](index.md)
-## [Get started](get-started.md)
-### [Visual Studio](get-started.md#visual-studio)
-### [VS Code & CLI](get-started.md#other-environments)
+
+# [Install](#)
+## [Tools](#)
+## [NuGet Packages](packages.md)
+
+# [Get started](get-started.md)
 
 # [How to](#)
-
-# [NuGet packages](packages.md)
-## [Storage](packages-storage.md)
 
 # [Reference](#)
 ## [Autogen'd Topic 1](#)
