@@ -1,10 +1,5 @@
 # Azure NuGet packages for Node.js developers
 
-This project provides a Node.js package that makes it easy to consume and manage
-Microsoft Azure Services.
-
-## Usage
-
 This page lists all of the individual Azure Node.js packages in a single
 place. To install a specific package, open a bash or command window on a machine with 
 npm (Node Package Manager) installed, and execute the **Install command** listed next to the desired package
