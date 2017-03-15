@@ -1,8 +1,3 @@
----
-layout: LandingPage
-description: Node.js tools for Azure developers
----
-
 # Node.js tools for Azure developers
 
 Node development for Azure is supported for both cross-platform and Windows-only scenarios.
