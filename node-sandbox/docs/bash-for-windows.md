@@ -1,6 +1,6 @@
-# Install Bash for Windows
+# Install Bash for Windows 10 Anniversary Update
 
-## Updating to Windows 10 Anniversary Update
+## Update your computer to Windows 10 Anniversary Update
 
 The following steps walk you through installing the Windows 10 Anniversary Update on your computer using Windows Update:
 
@@ -18,7 +18,7 @@ The following steps walk you through installing the Windows 10 Anniversary Updat
 
 	Once you select **Install now**, a progress bar displays the current status of the update process.
  
-## Bash for Windows installation steps
+## Install Bash for Windows 
 
 The following steps walk you through installing the Bash environment from Windows 10 Anniversary Update:
 
@@ -64,12 +64,16 @@ The following steps walk you through installing the Bash environment from Window
 
 	![Bash downloading](./media/bash-for-windows/bash-downloading.png) 
 
+1. When you are prompted to create a default UNIX user account, enter a username in the required field, and press **Enter**. The account does not have to match your Windows account, and it can't be `admin`.
 
+	![bash Unix name](./media/bash-for-windows/bash-unix-name.png)
 
+1. Enter (and confirm) a password for the username you entered.
 
+1. Close the command prompt. Now, if you type `bash` into the Windows Run box, you'll see that it has been installed. As with any Windows desktop application, you can right-click it, and, from the context menu, pin the application icon to the Start menu or taskbar.   
 
+	![Bash installed](./media/bash-for-windows/bash-installed.png)
 
+## Next steps
 
-
-
-
+- [Download and install Azure NuGet packages](packages.md)
