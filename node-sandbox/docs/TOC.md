@@ -5,12 +5,23 @@
 ## [NuGet Packages](packages.md)
 
 # [Get started](get-started.md)
+## Your first Node app on Azure
+## Deploy a Node app to Azure
 
 # How to
-## App Service
-### Build and deploy applications
-### Consume Azure services
-### Manage Azure resources
+## Build and deploy applications
+
+## Consume Azure services
+
+### App Service
+### Authentication with Azure Active Directory
+### Azure Container Service
+### DocumentDB
+### Functions
+### Storage
+
+## Manage Azure resources
+### Deploy to a VM
  
 # Reference
 ## [Autogen'd Topic 1](#)
