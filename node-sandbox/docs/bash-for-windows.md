@@ -1,5 +1,7 @@
 # Install Bash for Windows 10 Anniversary Update
 
+This topic explains how to update your Windows computer to Windows 10 Anniversary Update, and walks you through downloading and installing the new **Bash on Ubuntu on Windows** feature.  
+
 ## Update your computer to Windows 10 Anniversary Update
 
 The following steps walk you through installing the Windows 10 Anniversary Update on your computer using Windows Update:
@@ -18,7 +20,7 @@ The following steps walk you through installing the Windows 10 Anniversary Updat
 
 	Once you select **Install now**, a progress bar displays the current status of the update process.
  
-## Install Bash for Windows 
+## Download and install Bash on Ubuntu on Windows 
 
 The following steps walk you through installing the Bash environment from Windows 10 Anniversary Update:
 
