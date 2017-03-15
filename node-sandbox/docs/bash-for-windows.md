@@ -13,6 +13,10 @@
 1. Once the update descriptions have been downloaded, the Windows 10 update will be listed as build 1607 (or later). Select **Install now**.
 
 	![](./media/bash-for-windows/windows-update.png)
+
+	Once you select **Install now**, a progress bar displays the current status of the update process.
  
 
-## Installation steps
+## Bash for Windows installation steps
+
+
