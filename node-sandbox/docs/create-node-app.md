@@ -6,65 +6,10 @@ This article illustrates how to create a GitHub repository, create a Node.js app
 > 
 > 
 
-## Create a repository for your app in GitHub
-This section walks you through creating a new GitHub repository for your app. 
-
-1. In your browser, navigate to your GitHub profile.
-
-1. Select **Repositories**.
-
-	![GitHub Repositories menu](media/create-node-app/repo-menu.png)
-
-1. Select **New**.
-
-	![GitHub New Repository button](media/create-node-app/repo-new.png)
-
-1. In the **Create a new repository** page:
-
-	- **Repository name** - Enter the name of the new app.
-	- **Description** - (Optional) Enter the description for the app.
-	- **Public/Private** - Depending on your GitHub subscription type, select the appropriate visibility for your app.
-	- **Initialize this repository with a README** - Select this if you want GitHub to create a readme file for you.
-
-	Select **Create repository**.
-
-	![GitHub Ceate new repository page](media/create-node-app/create-new-repo.png) 
-
-1. Open a command prompt.
-
-1. Create a new directory for your app. 
-
-	```
-	mkdir ta-node-demo
-	```
-
-1. Change directories to the app directory.
-
-	```
-	cd ta-node-demo
-	```
-
-1. Initialize the Git repository in the app directory.
-
-	```
-	git init
-	```
-
-1. Add a Git remote endpoint, replacing the &lt;GitHubUserName> and &lt;GitHubToken> placeholders with your GitHub values. You can locate your GitHub token via the GitHub site (in your profile's Settings page).   
-
-	```
-	git remote add origin https://<GitHubUserName>:<GitHubToken>@github.com/<GitHubUserName>/ta-node-demo.git
-	```
-1. Sync with GitHub.
-
-	```
-	git pull origin master
-	```
-
 ## Create a Node.js app using the yo generator
 This section contains instructions for creating a Node.js app using the yo generator.
 
-1. In a command prompt, change directories to your app directory.
+1. Open a command prompt.
 
 1. Install yo.
 
@@ -86,7 +31,7 @@ This section contains instructions for creating a Node.js app using the yo gener
 
 1. Select the following options when prompted by the yo generator:
 
-    `? Would you like to create a new directory for your project?` **No**  
+    `? Would you like to create a new directory for your project?` **Yes**  
     `? Enter directory name` **{appname}**  
     `? Select a version to install:` **MVC**  
     `? Select a view engine to use:` **Jade**  
