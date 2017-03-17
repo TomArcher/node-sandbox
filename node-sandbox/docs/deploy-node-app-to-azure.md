@@ -61,6 +61,12 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
 	az appservice web source-control config-local-git -n ta-node-demo -g ta-node-demo-rg
 	```
 
+1. Initialize Git in the app directory.
+
+	```
+	git init
+	```
+
 1. Using the URL returned from the previous step, add the remote endpoint. Replace the &lt;username> and &lt;password> placeholders with the appropriate values.
 
 	```
