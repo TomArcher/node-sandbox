@@ -19,15 +19,20 @@
 ## Consume Azure services
 
 ### App Service
-
-#### [Create a Node app in Azure App Service](https://docs.microsoft.com/azure/app-service-web/web-sites-nodejs-develop-deploy-mac)
-#### [How to debug a Node.js web app in Azure App Service](https://docs.microsoft.com/azure/app-service-web/web-sites-nodejs-debug)
+#### [Create a Node app in Azure App Service](create-node-app.md)
 
 ### Authentication with Azure Active Directory
+
 ### Azure Container Service
+
 ### DocumentDB
+
 ### Functions
+
 ### Storage
+#### [Use Blob storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-blob-storage)
+#### [Use Queue storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-queues)
+#### [Use Azure Table storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-table-storage)
 
 ## Manage Azure resources
 

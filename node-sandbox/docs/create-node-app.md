@@ -2,7 +2,7 @@
 This article illustrates how to create a GitHub repository, create a Node.js app using the yo generator, and store the new app's source code files in the GitHub repository. 
 
 > [!NOTE]
-> The sections in this article refer to an example Node app name of ``node-demo``. Wherever you see ``node-demo`` in the instructions, you'll need to substitute the name of your app.   
+> The sections in this article refer to an example Node app name of ``ta-node-demo``. Wherever you see ``ta-node-demo`` in the instructions, you'll need to substitute the name of your app.   
 > 
 > 
 
@@ -35,13 +35,13 @@ This section walks you through creating a new GitHub repository for your app.
 1. Create a new directory for your app. 
 
 	```
-	mkdir node-demo
+	mkdir ta-node-demo
 	```
 
 1. Change directories to the app directory.
 
 	```
-	cd node-demo
+	cd ta-node-demo
 	```
 
 1. Initialize the Git repository in the app directory.
@@ -53,7 +53,7 @@ This section walks you through creating a new GitHub repository for your app.
 1. Add a Git remote endpoint, replacing the &lt;GitHubUserName> and &lt;GitHubToken> placeholders with your GitHub values. You can locate your GitHub token via the GitHub site (in your profile's Settings page).   
 
 	```
-	git remote add origin https://<GitHubUserName>:<GitHubToken>@github.com/<GitHubUserName>/node-demo.git
+	git remote add origin https://<GitHubUserName>:<GitHubToken>@github.com/<GitHubUserName>/ta-node-demo.git
 	```
 
 ## Create a Node.js app using the yo generator
@@ -116,8 +116,3 @@ Once you've created and test your app, the following steps will push your app to
 
 ## Next steps
 - [Deploy an existing Node.js app to Azure App Service](deploy-node-app-to-azure.md)
-
-
-
-
-
