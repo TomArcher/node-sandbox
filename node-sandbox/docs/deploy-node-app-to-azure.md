@@ -1,4 +1,4 @@
-# Deploying an existing Node.js app to Azure App Service
+# Deploy an existing Node.js app to Azure App Service
 
 This topic illustrates how to deploy your Node.js application to Azure App Service using the Azure CLI.
 
