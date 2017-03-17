@@ -16,13 +16,13 @@
 
 ## Build and deploy applications
 
+#### Authentication with Azure Active Directory
+
+#### Azure Container Service
+
 ## Consume Azure services
 
 ### App Service
-
-### Authentication with Azure Active Directory
-
-### Azure Container Service
 
 ### DocumentDB
 
