@@ -39,6 +39,12 @@ This section contains instructions for creating a Node.js app using the yo gener
     `? Select a database to use:` **None**  
     `? Select a build tool to use:` **Grunt**
 
+1. Change directories to the directory containing your app.
+
+	```
+	cd ta-node-demo
+	```
+
 1. Start the app. 
 
 	```
