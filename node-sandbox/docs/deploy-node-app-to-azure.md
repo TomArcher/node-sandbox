@@ -19,68 +19,40 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
 
 	Follow the prompt to log in with a Microsoft account that has your Azure subscription.
 
-2. Set the deployment user for App Service. You will deploy code using these credentials later.
-   
-	```
-	az appservice web deployment user set --user-name <username> --password <password>
-	```
-
-3. Create a new [resource group](../azure-resource-manager/resource-group-overview.md). For this node.js tutorial, you don't really need to know
-what it is.
+1. Create a [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview.md), which you can think of as a *namespace*, or *directory*, for helping to organize Azure resources.
 
 	```
-	az group create --location "<location>" --name my-nodejs-app-group
+	az group create -n nina-demo -l westus
 	```
 
-    To see what possible values you can use for `<location>`, use the `az appservice list-locations` CLI command.
+	The -l flag indicates the location of the resource group. While in preview, the App Service on Linux support is only available in select regions, so if you aren't located in the Western US, and you want to check which other regions are available, run `az appservice list-locations --linux-workers-enabled` from the command line to view your datacenter options.
 
-3. Create a new "FREE" [App Service plan](../app-service/azure-web-sites-web-hosting-plans-in-depth-overview.md). For this node.js tutorial, just 
-know that you won't be charged for web apps in this plan.
-
-	```
-	az appservice plan create --name my-nodejs-appservice-plan --resource-group my-nodejs-app-group --sku FREE
-	```
-
-4. Create a new web app with a unique name in `<app_name>`.
+1. Create the [App Service plan](https://docs.microsoft.com/en-us/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview.md) that will manage creating and scaling the underlying VMs to which your app is deployed. Once again, specify any value that you'd like for the name flag, however, make sure that the `-g` flag references the name that you gave to the resource group above.
 
 	```
-	az appservice web create --name <app_name> --resource-group my-nodejs-app-group --plan my-nodejs-appservice-plan
+	az appservice plan create -n nina-demo-plan -g nina-demo --is-linux
 	```
 
-5. Configure local Git deployment for your new web app with the following command:
+	The --is-linux flag is key, since that is what indicates that you want Linux-based VMs. Without it, the CLI will provision Windows-based VMs.
+
+1. Create the App Service web app, which represents your Node app that will be running within the plan and resource group just created. You can roughly think of a web app as being synonymous with a process or container, and the plan as being the VM/container host that they're running on.
 
 	```
-	az appservice web source-control config-local-git --name <app_name> --resource-group my-nodejs-app-group
+	az appservice web create -n nina-demo-app -p nina-demo-plan -g nina-demo
 	```
 
-    You will get a JSON output like this, which means that the remote Git repository is configured:
+1. Configure the web app to use our Docker image, making sure to set the -c flag to the name of your DockerHub account/image name.
+
+```
+az appservice web config container update -n nina-demo-app -g nina-demo -c lostintangent/node
+```
+
+1. Launch the app to view the container that was just deployed, which will be available at an *.azurewebsites.net URL.
 
 	```
-	{
-		"url": "https://<deployment_user>@<app_name>.scm.azurewebsites.net/<app_name>.git"
-	}
+	az appservice web browse -n nina-demo-app -g nina-demo
 	```
 
-6. Add the URL in the JSON as a Git remote for your local repository (called `azure` for simplicity).
-
-	```
-	git remote add azure https://<deployment_user>@<app_name>.scm.azurewebsites.net/<app_name>.git
-	```
-   
-7. Deploy your sample code to the `azure` Git remote. When prompted, use the deployment credentials you configured earlier.
-
-	```
-	git push azure master
-	```
-   
-    The Express generator already provides a .gitignore file, so your `git push` doesn't consume bandwidth trying to upload the node_modules/ directory.
-
-9. Launch your live Node app hosted in Azure.
-   
-	```
-	az appservice web browse --name <app_name> --resource-group my-nodejs-app-group
-	```
-   
     You should now see your Node.js web app running live in Azure App Service.
    
 ## Update your Node.js web app
