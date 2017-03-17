@@ -35,7 +35,7 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
 	az appservice plan create -n ta-node-demo-plan -g ta-node-demo-rg --is-linux
 	```
 
-	The --is-linux flag is key, since that is what indicates that you want Linux-based VMs. Without it, the CLI will provision Windows-based VMs.
+	The `--is-linux flag` is key, since that is what indicates that you want Linux-based VMs. Without it, the CLI will provision Windows-based VMs.
 
 1. Create the App Service web app, which represents your Node app that will be running within the plan and resource group just created. You can roughly think of a web app as being synonymous with a process or container, and the plan as being the VM/container host that they're running on.
 
