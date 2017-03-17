@@ -9,7 +9,7 @@
 
 ## [Launch a VM containing your Node stack](https://azuremarketplace.microsoft.com/marketplace/apps/category/compute?operatingSystem=acom-linux&search=node.js)
 ## [Create a Node app using a template](https://azure.microsoft.com/try/app-service/web/?language=nodejs)
-## [Create a Node app](create-node-app.md)
+## [Create a Node app in Azure App Service](create-node-app.md)
 ## [Deploy an existing Node app to Azure](deploy-node-app-to-azure.md)
 
 # How to
