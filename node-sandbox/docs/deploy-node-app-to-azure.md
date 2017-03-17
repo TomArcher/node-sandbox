@@ -43,9 +43,9 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
 
 1. Configure the web app to use our Docker image, making sure to set the -c flag to the name of your DockerHub account/image name.
 
-```
-az appservice web config container update -n nina-demo-app -g nina-demo -c lostintangent/node
-```
+	```
+	az appservice web config container update -n nina-demo-app -g nina-demo -c lostintangent/node
+	```
 
 1. Launch the app to view the container that was just deployed, which will be available at an *.azurewebsites.net URL.
 
