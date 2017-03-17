@@ -50,7 +50,7 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
     You should now see your Node.js web app running live in Azure App Service.
    
 ## Update your Node.js web app
-To make updates to your Node.js web app running in App Service, just run `git add`, `git commit`, and `git push` like you did when you first deployed your web app.
+To make updates to your Node.js web app running in App Service, just run `git add`, `git commit`, and `git push` like you did when you [first deployed your web app](create-node-app.md#push-your-app-to-github).
 
 ## Next steps
 Once your app is hosted on Azure, you can see the following articles to learn how to incorporate key Azue capabilities in your app:
