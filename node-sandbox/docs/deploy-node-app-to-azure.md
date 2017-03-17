@@ -1,11 +1,22 @@
 # Deploying a Node.js app to Azure App Service
 
-This topic illustrates how to deploy your Node.js application to Azure App Service. 
+This topic illustrates how to deploy your Node.js application to Azure App Service using the Azure CLI.
 
-Using Azure App Service, you can enables you to deploy , which is Azure's PaaS offering, and recently added two new capabilities which are relevant to Node.js developers:
+## Prerequisites
 
-Support for Linux-based VMs, which reduces incompatibilities for apps which are built using native Node modules, or other tools which might not support Windows and/or may behave differently.
+- [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/install-az-cli2)
+- Microsoft Azure account - If you don't have an account, you can [sign up for a free trial](http://go.microsoft.com/fwlink/?LinkId=623901) or [activate your Visual Studio subscriber benefits](http://go.microsoft.com/fwlink/?LinkId=623901).
 
-Support for Docker-based deployments, which allow you to simply specify the name of your Docker image, and allow App Service to pull, deploy and scale the image automatically.
+## Deploy your Node.js app to Azure
 
-To get started, open up your terminal, and we'll use the new Azure CLI 2.0 to manage your Azure account and provision the necessary infrastructure to run the todo app. Once you've logged into your account from the CLI using the az login command (as mentioned in the pre-reqs), perform the following steps in order to provision the App Service instance and deploy the todo app container:
+1. Open a command prompt or bash window, and change directories to the location of your Node project.
+
+1. Log in to Azure.
+
+	```
+	az login
+	```
+
+	Follow the prompt to log in with a Microsoft account that has your Azure subscription.
+
+
