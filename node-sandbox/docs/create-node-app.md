@@ -59,8 +59,6 @@ This section walks you through creating a new GitHub repository for your app.
 ## Create a Node.js app using the yo generator
 This section contains instructions for creating a Node.js app using the yo generator.
 
-1. [Install Azure CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli).
-
 1. In a command prompt, change directories to your app directory.
 
 1. Run the yo generator.

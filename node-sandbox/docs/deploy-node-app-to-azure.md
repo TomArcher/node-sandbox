@@ -11,6 +11,8 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
 
 1. Open a command prompt or bash window, and change directories to the location of your Node project.
 
+1. [Install Azure CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli).
+
 1. Log in to Azure.
 
 	```
