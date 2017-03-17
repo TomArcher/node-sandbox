@@ -24,7 +24,7 @@ This section walks you through creating a new GitHub repository for your app.
 	- **Repository name** - Enter the name of the new app.
 	- **Description** - (Optional) Enter the description for the app.
 	- **Public/Private** - Depending on your GitHub subscription type, select the appropriate visibility for your app.
-	- ** Initialize this repository with a README** - Select this if you want GitHub to create a readme file for you.
+	- **Initialize this repository with a README** - Select this if you want GitHub to create a readme file for you.
 
 	Select **Create repository**.
 
