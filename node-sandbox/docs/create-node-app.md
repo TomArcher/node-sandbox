@@ -61,6 +61,18 @@ This section contains instructions for creating a Node.js app using the yo gener
 
 1. In a command prompt, change directories to your app directory.
 
+1. Install yo.
+
+	```
+	npm install --global yo
+	```
+
+1. Install the Express generator for yo 
+	
+	```
+	npm install -g generator-express
+	```
+
 1. Run the yo generator.
 
 	```
