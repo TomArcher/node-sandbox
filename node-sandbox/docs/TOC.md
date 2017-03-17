@@ -5,7 +5,7 @@
 ## [Tools](tools.md)
 ## [NuGet Packages](packages.md)
 
-# [Get started](get-started.md)
+# Get started
 
 ## [Launch a VM containing your Node stack](https://azuremarketplace.microsoft.com/marketplace/apps/category/compute?operatingSystem=acom-linux&search=node.js)
 ## [Create a Node app using a template](https://azure.microsoft.com/try/app-service/web/?language=nodejs)
