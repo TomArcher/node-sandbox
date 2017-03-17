@@ -55,6 +55,11 @@ This section walks you through creating a new GitHub repository for your app.
 	```
 	git remote add origin https://<GitHubUserName>:<GitHubToken>@github.com/<GitHubUserName>/ta-node-demo.git
 	```
+1. Sync with GitHub.
+
+	```
+	git pull origin master
+	```
 
 ## Create a Node.js app using the yo generator
 This section contains instructions for creating a Node.js app using the yo generator.
