@@ -9,7 +9,7 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
 
 ## Deploy your Node.js app to Azure
 
-1. Open a command prompt or bash window, and change directories to the location of your Node project.
+1. Open a command prompt or bash window, and change directories to the location of your Node app.
 
 1. [Install Azure CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli).
 
@@ -21,7 +21,7 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
 
 	Follow the prompt to log in with a Microsoft account that has your Azure subscription.
 
-1. Create a [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview.md), which you can think of as a *namespace*, or *directory*, for helping to organize Azure resources.
+1. Create a [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview), which you can think of as a *namespace*, or *directory*, for helping to organize Azure resources.
 
 	```
 	az group create -n ta-node-demo-rg -l westus
@@ -29,7 +29,7 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
 
 	The -l flag indicates the location of the resource group. While in preview, the App Service on Linux support is only available in select regions, so if you aren't located in the Western US, and you want to check which other regions are available, run `az appservice list-locations --linux-workers-enabled` from the command line to view your datacenter options.
 
-1. Create the [App Service plan](https://docs.microsoft.com/en-us/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview.md) that will manage creating and scaling the underlying VMs to which your app is deployed. Once again, specify any value that you'd like for the name flag, however, make sure that the `-g` flag references the name that you gave to the resource group above.
+1. Create the [App Service plan](https://docs.microsoft.com/en-us/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview) that will manage creating and scaling the underlying VMs to which your app is deployed. Once again, specify any value that you'd like for the name flag, however, make sure that the `-g` flag references the name that you gave to the resource group above.
 
 	```
 	az appservice plan create -n ta-node-demo-plan -g ta-node-demo-rg --is-linux

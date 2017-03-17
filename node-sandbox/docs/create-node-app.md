@@ -104,10 +104,10 @@ This section contains instructions for creating a Node.js app using the yo gener
 
 	![Running the app locally](media/create-node-app/run-app.png)
 
-1. Return to the command prompt, and click **&lt;Ctrl>&lt;C>** to stop the app.
+1. When finished, close the browser page/tab, return to the command prompt, and click **&lt;Ctrl>&lt;C>** to stop the app.
 
 ## Push your app to GitHub
-Once you've created and test your app, the following steps will push your app to GitHub.
+Once you've created and test your app, the following steps will push your app's source code to GitHub.
 
 1. In a command prompt, change directories to your app directory.
 
