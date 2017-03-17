@@ -21,6 +21,12 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
 
 	Follow the prompt to log in with a Microsoft account that has your Azure subscription.
 
+1. Set the deployment user for App Service. Modify the &lt;username> and &lt;password> placeholders, and remember these values as they are used later when you deploy your code.
+
+	```
+	az appservice web deployment user set --user-name <username> --password <password>
+	```
+
 1. Create a [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview), which you can think of as a *namespace*, or *directory*, for helping to organize Azure resources.
 
 	```
@@ -41,6 +47,30 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
 
 	```
 	az appservice web create -n ta-node-demo-app -p ta-node-demo-plan -g ta-node-demo-rg
+	```
+
+1. Create a new web app.
+
+	```
+	az appservice web create -n ta-node-demo -g ta-node-demo-rg -p ta-node-demo-plan
+	```
+
+1. Configure local Git deployment for your new web app with the following command.
+ 
+	```
+	az appservice web source-control config-local-git -n ta-node-demo -g ta-node-demo-rg
+	```
+
+1. Using the URL returned from the previous step, add the remote endpoint. Replace the &lt;username> and &lt;password> placeholders with the appropriate values.
+
+	```
+	git remote add azure https://<username>:<password>@ta-node-demo.scm.azurewebsites.net/ta-node-demo.git
+	```
+
+1. Deploy your app.
+
+	```
+	git push azure master
 	```
 
 1. Launch the app to view the container that was just deployed, which will be available at an *.azurewebsites.net URL.
