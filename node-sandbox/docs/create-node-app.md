@@ -81,7 +81,7 @@ This section contains instructions for creating a Node.js app using the yo gener
 
 1. Select the following options when prompted by the yo generator:
 
-    `? Would you like to create a new directory for your project?` **Yes**  
+    `? Would you like to create a new directory for your project?` **No**  
     `? Enter directory name` **{appname}**  
     `? Select a version to install:` **MVC**  
     `? Select a view engine to use:` **Jade**  
