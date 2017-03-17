@@ -19,8 +19,6 @@
 ## Consume Azure services
 
 ### App Service
-#### [Create a Node app in Azure App Service](create-node-app.md)
-#### [Deploy an existing Node app to Azure](deploy-node-app-to-azure.md)
 
 ### Authentication with Azure Active Directory
 
