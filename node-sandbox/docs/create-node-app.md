@@ -1,4 +1,4 @@
-# Create a Node.js app (using GitHub and Yo)
+# Create a Node.js app
 This article illustrates how to create a GitHub repository, create a Node.js app using the yo generator, and store the new app's source code files in the GitHub repository. 
 
 > [!NOTE]
@@ -50,29 +50,6 @@ This section contains instructions for creating a Node.js app using the yo gener
 	![Running the app locally](media/create-node-app/run-app.png)
 
 1. When finished, close the browser page/tab, return to the command prompt, and click **&lt;Ctrl>&lt;C>** to stop the app.
-
-## Push your app to GitHub
-Once you've created and test your app, the following steps will push your app's source code to GitHub.
-
-1. In a command prompt, change directories to your app directory.
-
-1. Add the app's files to the Git repo.
-
-	```
-	git add .
-	```
-
-1. Commit the app's files. 
-
-	```
-	git commit -m "initial checkin"
-	```
-
-1. Push your changes to the GitHub repository.
-
-	```
-	git push origin master
-	```
 
 ## Next steps
 - [Deploy an existing Node.js app to Azure App Service](deploy-node-app-to-azure.md)
