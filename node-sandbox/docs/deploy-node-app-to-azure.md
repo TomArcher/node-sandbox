@@ -79,7 +79,7 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
 	git push azure master
 	```
 
-1. Launch the app to view the container that was just deployed, which will be available at an *.azurewebsites.net URL.
+1. Launch the app to view the container that was just deployed, which will be available at an `*.azurewebsites.net` URL.
 
 	```
 	az appservice web browse -n ta-node-demo-app -g ta-node-demo-rg
@@ -88,7 +88,7 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
     You should now see your Node.js web app running live in Azure App Service.
    
 ## Next steps
-Once your app is hosted on Azure, you can see the following articles to learn how to incorporate key Azue capabilities in your app:
+Once your app is hosted on Azure, you can see the following articles to learn how to incorporate key Azure capabilities in your app:
 
 - [Use Azure Blob storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-blob-storage)
 - [Use Azure Queue storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-queues)

@@ -1,5 +1,5 @@
 # Create a Node.js app
-This article illustrates how to create a GitHub repository, create a Node.js app using the yo generator, and store the new app's source code files in the GitHub repository. 
+This article illustrates how to create a Node.js app using the yo generator. 
 
 > [!NOTE]
 > The sections in this article refer to an example Node app name of ``ta-node-demo``. Wherever you see ``ta-node-demo`` in the instructions, you'll need to substitute the name of your app.   
