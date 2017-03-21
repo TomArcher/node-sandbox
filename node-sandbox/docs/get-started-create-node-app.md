@@ -1,3 +1,17 @@
+---
+title: Create a Node.js app | Microsoft Docs
+description: Install the Azure CLI for your platform and log in to your Azure account
+keywords: Azure Node, Azure Node API Reference, Azure SDK
+author: tarcher
+manager: douge
+ms.assetid: 853DED2B-3DBE-4AFC-8C5C-84504F2DFFC2
+ms.service: Azure
+ms.devlang: node
+ms.topic: reference
+ms.technology: Azure
+ms.date: 3/21/2016
+---
+
 # Create a Node.js app
 This article illustrates how to create a Node.js app using the yo generator. 
 
@@ -6,7 +20,7 @@ This article illustrates how to create a Node.js app using the yo generator.
 > 
 > 
 
-## Create a Node.js app using the yo generator
+## Create a Node.js app using the Yeoman (yo) Express generator
 This section contains instructions for creating a Node.js app using the yo generator.
 
 1. Open a command prompt.
@@ -57,5 +71,5 @@ This section contains instructions for creating a Node.js app using the yo gener
 
 1. When finished, close the browser page/tab, return to the command prompt, and click **&lt;Ctrl>&lt;C>** to stop the app.
 
-## Next steps
-- [Deploy an existing Node.js app to Azure App Service](deploy-node-app-to-azure.md)
+>[!div class="step-by-step"]
+[**Deploy a Node.js app to Azure** &rarr;](get-started-deploy-to-azure.md)
