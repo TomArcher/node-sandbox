@@ -13,6 +13,8 @@
 ## [Deploy to Azure](get-started-deploy-to-azure.md)
 ## [Make changes](get-started-updates.md)
 
+# How to
+
 ## Build and deploy applications
 ### Authentication with Azure Active Directory
 ### Azure Container Service
@@ -21,7 +23,6 @@
 ### App Service
 ### DocumentDB
 ### Functions
-
 ### Storage
 #### [Use Blob storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-blob-storage)
 #### [Use Queue storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-queues)
