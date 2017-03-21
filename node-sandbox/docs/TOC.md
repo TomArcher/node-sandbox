@@ -24,7 +24,8 @@
 ### DocumentDB
 ### Functions
 ### Storage
-#### [Use Blob storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-blob-storage)
+#### [Storage: Use Blob storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-blob-storage)
+#### [Node: Use Blob storage from Node.js](test.md)
 #### [Use Queue storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-queues)
 #### [Use Azure Table storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-table-storage)
 
