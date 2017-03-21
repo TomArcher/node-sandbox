@@ -91,9 +91,5 @@ This topic illustrates how to deploy your Node.js application to Azure App Servi
 
     You should now see your Node.js web app running live in Azure App Service.
    
-## Next steps
-Once your app is hosted on Azure, you can see the following articles to learn how to incorporate key Azure capabilities in your app:
-
-- [Use Azure Blob storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-blob-storage)
-- [Use Azure Queue storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-queues)
-- [Use Azure Table storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-table-storage)
+>[!div class="step-by-step"]
+[**Updating a Node.js app in Azure** &rarr;](get-started-updates.md)
