@@ -16,6 +16,10 @@ ms.date: 3/21/2016
 
 ## Set up your environment
 
+1. Get an Azure account. If you don't already have an Azure account, you can [sign up for a free trial](https://azure.microsoft.com/pricing/free-trial/?WT.mc_id=A261C142F) or [activate your Visual Studio subscriber benefits](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F).
+
+1. Install [Node.js](https://nodejs.org).
+
 1. [Install the Azure CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-az-cli2) for your platform. You'll use the CLI to create the Azure resources your app will need to run.
 
 1. Open a command prompt or bash window.

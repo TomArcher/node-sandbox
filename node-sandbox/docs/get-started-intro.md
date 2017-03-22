@@ -16,6 +16,8 @@ ms.date: 3/21/2017
 
 ## Introduction
 
+TODO: Explain section, and list steps
+
 This quick start guides you through creating a Node app and deploying it to Azure. Optional steps are provided for integrating an Azure service in the sample and automating deployment.
 
 This tutorial assumes you have:

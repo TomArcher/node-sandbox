@@ -1,34 +1,30 @@
 # [Overview](index.md)
 
-# Install
-
-## [Tools](tools.md)
-## [NuGet Packages](packages.md)
-
 # Get started
 
-## [Introduction](get-started-intro.md)
-## [Set up your environment](get-started-setup.md)
+## [Configure environment](get-started-setup.md)
 ## [Create a Node app](get-started-create-node-app.md)
 ## [Deploy to Azure](get-started-deploy-to-azure.md)
 ## [Make changes](get-started-updates.md)
+## [Add MongoDB](get-started-mongodb.md)
 
 # How to
 
 ## Build and deploy applications
-### Authentication with Azure Active Directory
+### App Service
 ### Azure Container Service
+### Functions
 
 ## Consume Azure services
-### App Service
-### DocumentDB
-### Functions
 ### Storage
-#### [Use Blob storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-blob-storage?toc=toc.json)
-#### [Use Queue storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-queues?toc=/node-sandbox/toc.md)
-#### [Use Azure Table storage from Node.js](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-table-storage?toc=toc.md)
+#### [Working with Blobs](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-blob-storage?toc=toc.json)
+#### [Working with Queues](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-queues?toc=/node-sandbox/toc.md)
+#### [Working with Tables](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-table-storage?toc=toc.md)
+### Service Bus
+### Key Vault
 
 ## Manage Azure resources
+### [NPM packages](packages.md)
 
 # Reference
 ## [Autogen'd Topic 1](#)

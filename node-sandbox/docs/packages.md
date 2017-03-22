@@ -1,11 +1,11 @@
-# Azure NuGet packages for Node.js developers
+# Azure NPM packages for Node.js developers
 
 This page lists all of the individual Azure Node.js packages in a single
 place. To install a specific package, open a bash or command window on a machine with 
 npm (Node Package Manager) installed, and execute the **Install command** listed next to the desired package
 in the table.
 
-## Individual Azure/Node.js NuGet packages
+## Individual Azure/Node.js NPM packages
 
 | **Azure Service** | **Install Command** |
 | ----------------------------------------------------------------------------- | --------------------------- |
