@@ -1,6 +1,6 @@
 ---
-title: Get started with Node.js in Azure | Microsoft Docs
-description: Install the Azure CLI for your platform and log in to your Azure account
+title: Configure the Node.js environment for Azure | Microsoft Docs
+description: Install Node.js and the Azure CLI for your platform, and log in to your Azure account
 keywords: Azure Node, Azure Node API Reference, Azure SDK
 author: tarcher
 manager: douge
@@ -12,9 +12,7 @@ ms.technology: Azure
 ms.date: 3/21/2016
 ---
 
-# Get started with Node.js in Azure
-
-## Set up your environment
+# Configure the Node.js environment for Azure | Microsoft Docs
 
 1. Get an Azure account. If you don't already have an Azure account, you can [sign up for a free trial](https://azure.microsoft.com/pricing/free-trial/?WT.mc_id=A261C142F) or [activate your Visual Studio subscriber benefits](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F).
 

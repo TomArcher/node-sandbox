@@ -14,17 +14,7 @@ ms.date: 3/21/2017
 
 # Get started with Node.js in Azure
 
-## Introduction
-
 TODO: Explain section, and list steps
-
-This quick start guides you through creating a Node app and deploying it to Azure. Optional steps are provided for integrating an Azure service in the sample and automating deployment.
-
-This tutorial assumes you have:
-
-- An Azure account. If you don't have an Azure account, you can [sign up for a free trial](https://azure.microsoft.com/pricing/free-trial/?WT.mc_id=A261C142F) or [activate your Visual Studio subscriber benefits](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F).
-- [Node.js](https://nodejs.org)
-- [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/overview)
 
 >[!div class="step-by-step"]
 [**Set up** &rarr;](get-started-setup.md)
