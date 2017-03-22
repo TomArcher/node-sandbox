@@ -16,14 +16,19 @@
 ### Functions
 
 ## Consume Azure services
+
 ### Storage
-#### [Working with Blobs](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-blob-storage?toc=toc.json)
-#### [Working with Queues](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-queues?toc=/node-sandbox/toc.md)
-#### [Working with Tables](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-table-storage?toc=toc.md)
+#### [Working with Blobs](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-blob-storage)
+#### [Working with Queues](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-queues)
+#### [Working with Tables](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-table-storage)
+
 ### Service Bus
+
 ### Key Vault
 3/22/2017 11:10:21 AM 
+
 ## Manage Azure resources
+
 ### [NPM packages](packages.md)
 
 # Reference
