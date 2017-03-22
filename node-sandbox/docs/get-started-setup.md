@@ -14,6 +14,8 @@ ms.date: 3/21/2016
 
 # Configure the Node.js environment for Azure
 
+The following steps guide you through configuring your environment to create and deploy Node.js apps to Azure:  
+
 1. Get an Azure account. If you don't already have an Azure account, you can [sign up for a free trial](https://azure.microsoft.com/pricing/free-trial/?WT.mc_id=A261C142F) or [activate your Visual Studio subscriber benefits](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F).
 
 1. Install [Node.js](https://nodejs.org).
