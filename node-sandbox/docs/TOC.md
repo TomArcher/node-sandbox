@@ -18,8 +18,8 @@
 ## Consume Azure services
 
 ### Storage
-#### [Working with Blobs](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-blob-storage)
-#### [Working with Queues](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-queues)
+#### [Working with Blobs](https://review.docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-blob-storage?toc=/node-sandbox/toc.json&bc=/node-sandbox/breadcrumb/toc.json)
+#### [Working with Queues](/azure/storage/storage-nodejs-how-to-use-queues?toc=/node-sandbox/toc.json&bc=/node-sandbox/breadcrumb/toc.json)
 #### [Working with Tables](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-table-storage)
 
 ### Service Bus
