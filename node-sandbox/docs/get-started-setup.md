@@ -12,7 +12,7 @@ ms.technology: Azure
 ms.date: 3/21/2016
 ---
 
-# Configure the Node.js environment for Azure | Microsoft Docs
+# Configure the Node.js environment for Azure
 
 1. Get an Azure account. If you don't already have an Azure account, you can [sign up for a free trial](https://azure.microsoft.com/pricing/free-trial/?WT.mc_id=A261C142F) or [activate your Visual Studio subscriber benefits](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F).
 
