@@ -1,5 +1,5 @@
 ---
-title: Configure the Node.js environment for Azure | Microsoft Docs
+title: Configuring the Node.js environment for Azure | Microsoft Docs
 description: Install Node.js and the Azure CLI for your platform, and log in to your Azure account
 keywords: Azure Node, Azure Node API Reference, Azure SDK
 author: tarcher
@@ -12,7 +12,7 @@ ms.technology: Azure
 ms.date: 3/21/2016
 ---
 
-# Configure the Node.js environment for Azure
+# Configuring the Node.js environment for Azure
 
 The following steps guide you through configuring your environment to create and deploy Node.js apps to Azure:  
 

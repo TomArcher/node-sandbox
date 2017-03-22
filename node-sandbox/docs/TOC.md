@@ -3,9 +3,9 @@
 # Get started
 
 ## [Configure environment](get-started-setup.md)
-## [Create a Node app](get-started-create-node-app.md)
+## [Create an app](get-started-create-node-app.md)
 ## [Deploy to Azure](get-started-deploy-to-azure.md)
-## [Make changes](get-started-updates.md)
+## [Update an app in Azure](get-started-updates.md)
 ## [Add MongoDB](get-started-mongodb.md)
 
 # How to
@@ -22,7 +22,7 @@
 #### [Working with Tables](https://docs.microsoft.com/en-us/azure/storage/storage-nodejs-how-to-use-table-storage?toc=toc.md)
 ### Service Bus
 ### Key Vault
-
+3/22/2017 11:10:21 AM 
 ## Manage Azure resources
 ### [NPM packages](packages.md)
 

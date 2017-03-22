@@ -1,5 +1,5 @@
 ---
-title: Create a Node.js app | Microsoft Docs
+title: Creating a Node.js app using the Yeoman (yo) Express generator | Microsoft Docs
 description: Install the Azure CLI for your platform and log in to your Azure account
 keywords: Azure Node, Azure Node API Reference, Azure SDK
 author: tarcher
@@ -12,7 +12,7 @@ ms.technology: Azure
 ms.date: 3/21/2016
 ---
 
-# Create a Node.js app
+# Creating a Node.js app using the Yeoman (yo) Express generator
 This article illustrates how to create a Node.js app using the yo generator. 
 
 > [!NOTE]
