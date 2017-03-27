@@ -17,6 +17,8 @@
 
 ## Consume Azure services
 
+### [Provisioning a fully-managed MongoDB cluster](/azure/documentdb/documentdb-nodejs-application?toc=/node-sandbox/toc.json&bc=/node-sandbox/breadcrumb/toc.json)
+
 ### Storage
 #### [Working with Blobs](/azure/storage/storage-nodejs-how-to-use-blob-storage?toc=/node-sandbox/toc.json&bc=/node-sandbox/breadcrumb/toc.json)
 #### [Working with Queues](/azure/storage/storage-nodejs-how-to-use-queues?toc=/node-sandbox/toc.json&bc=/node-sandbox/breadcrumb/toc.json)
