@@ -17,7 +17,9 @@
 
 ## Consume Azure services
 
-### [Provisioning a fully-managed MongoDB cluster](/azure/documentdb/documentdb-nodejs-application?toc=/node-sandbox/toc.json&bc=/node-sandbox/breadcrumb/toc.json)
+### [Provisioning a fully-managed MongoDB database](/azure/documentdb/documentdb-nodejs-application?toc=/node-sandbox/toc.json&bc=/node-sandbox/breadcrumb/toc.json)
+
+### [Creating and consuming a Redis cache](/azure/redis-cache/cache-nodejs-get-started?toc=/node-sandbox/toc.json&bc=/node-sandbox/breadcrumb/toc.json)
 
 ### Storage
 #### [Working with Blobs](/azure/storage/storage-nodejs-how-to-use-blob-storage?toc=/node-sandbox/toc.json&bc=/node-sandbox/breadcrumb/toc.json)
@@ -31,6 +33,10 @@
 ## Manage Azure resources
 
 ### [NPM packages](packages.md)
+
+### Jenkins
+
+### Terraform
 
 # Reference
 ## [Autogen'd Topic 1](#)
