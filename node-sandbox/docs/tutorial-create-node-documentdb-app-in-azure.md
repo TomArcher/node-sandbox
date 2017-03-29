@@ -22,6 +22,8 @@ ms.author: tarcher
 
 In this tutorial, you work with your own copy of a [todo app created and published by Scotch.io](https://scotch.io/tutorials/creating-a-single-page-todo-app-with-node-and-angular). The sections of this tutorial walk you through cloning the app to your local environment, running and debugging the app, adding DocumentDB support, and deploying to Azure App Service.
 
+![Todo app running](media/tutorial-create-node-documentdb-app-in-azure/app-running.png)
+
 ## Before you begin
 
 In order to effectively run through this tutorial, you need to have the following software installed:
@@ -30,4 +32,6 @@ In order to effectively run through this tutorial, you need to have the followin
 - [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/install-az-cli2)
 - [Chrome](https://www.google.com/chrome/browser/desktop/) - Used for debugging the app's front-end
 - Microsoft Azure account - If you don't have an account, you can [sign up for a free trial](http://go.microsoft.com/fwlink/?LinkId=623901) or [activate your Visual Studio subscriber benefits](http://go.microsoft.com/fwlink/?LinkId=623901).
+
+## Download the sample
 
