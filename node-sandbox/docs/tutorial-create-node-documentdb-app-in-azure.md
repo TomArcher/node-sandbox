@@ -39,10 +39,10 @@ In order to effectively run through this tutorial, you need to have the followin
 
 1. Open Visual Studio Code.
 
-1. Press **<F1>** to display the command palette.
+1. Press **&lt;F1>** to display the command palette.
 
 	![Visual Studio Code command palette](media/tutorial-create-node-documentdb-app-in-azure/vsc-command-palette.png)
 
-1. Enter `gitcl` to find the `Git: Clone` command, and press **<ENTER>**.
+1. Enter `gitcl` to find the `Git: Clone` command, and press **&lt;ENTER>**.
 
 
