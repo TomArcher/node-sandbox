@@ -24,6 +24,8 @@ In this tutorial, you work with your own copy of a [todo app created and publish
 
 ![Todo app running](media/tutorial-create-node-documentdb-app-in-azure/app-running.png)
 
+You can follow the steps below using a Windows, macOS, or Linux.  The entire tutorial should take only about 5 minutes to complete.
+
 ## Before you begin
 
 In order to effectively run through this tutorial, you need to have the following software installed:
