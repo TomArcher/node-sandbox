@@ -30,10 +30,19 @@ You can follow the steps below using a Windows, macOS, or Linux.  The entire tut
 
 In order to effectively run through this tutorial, you need to have the following software installed:
 
-- [Visual Studio Code](https://code.visualstudio.com/) or [Visual Studio Code Insiders Build](https://code.visualstudio.com/insiders) - Either one will work for this tutorial. The main difference is that the Insiders Build provides access to the latest bug fixes and feature enhancements.
+- [Visual Studio Code](https://code.visualstudio.com/) or [Visual Studio Code Insiders Build](https://code.visualstudio.com/insiders) - Either one will work for this tutorial. The main difference is that the Insiders Build provides access to the latest bug fixes and feature enhancements.  
 - [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/install-az-cli2)
 - [Chrome](https://www.google.com/chrome/browser/desktop/) - Used for debugging the app's front-end
 - Microsoft Azure account - If you don't have an account, you can [sign up for a free trial](http://go.microsoft.com/fwlink/?LinkId=623901) or [activate your Visual Studio subscriber benefits](http://go.microsoft.com/fwlink/?LinkId=623901).
 
 ## Download the sample
+
+1. Open Visual Studio Code.
+
+1. Press **<F1>** to display the command palette.
+
+	![Visual Studio Code command palette](media/tutorial-create-node-documentdb-app-in-azure/vsc-command-palette.png)
+
+1. Enter `gitcl` to find the `Git: Clone` command, and press **<ENTER>**.
+
 
