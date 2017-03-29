@@ -1,15 +1,15 @@
 # [Overview](index.md)
 
-# Get started
+# Quickstart
 
-## [Configure environment](get-started-setup.md)
-## [Create an app](get-started-create-node-app.md)
-## [Deploy to Azure](get-started-deploy-to-azure.md)
-## [Update an app in Azure](get-started-updates.md)
-## [Add MongoDB](get-started-mongodb.md)
+# Samples
 
-# How to
+# Tutorials
+## [Create a Node.js app using DocumentDB hosted in Azure](tutorial-create-node-documentdb-app-in-azure.md)
 
+# Concepts
+
+# How-To guides
 ## Build and deploy applications
 ### App Service
 ### Azure Container Service
@@ -30,15 +30,12 @@
 
 ### Key Vault
 
-## Manage Azure resources
-
-### [NPM packages](packages.md)
-
-### Jenkins
-
-### Terraform
-
 # Reference
 ## [Autogen'd Topic 1](#)
 ## [Autogen'd Topic 2](#)
 ## [Autogen'd Topic 3](#)
+
+# Resources
+## [NPM packages](packages.md)
+## Jenkins
+## Terraform
