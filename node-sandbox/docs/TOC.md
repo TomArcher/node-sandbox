@@ -5,7 +5,7 @@
 # Samples
 
 # Tutorials
-## [Create a Node.js app using DocumentDB hosted in Azure](tutorial-create-node-documentdb-app-in-azure.md)
+## [Add DocumentDB, and deploy to Azure](tutorial-create-node-documentdb-app-in-azure.md)
 
 # Concepts
 
