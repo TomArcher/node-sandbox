@@ -51,7 +51,12 @@ In order to effectively run through this tutorial, you need to have the followin
 
 	![Visual Studio Code command palette, Git Clone command, enter Git URL](media/tutorial-create-node-documentdb-app-in-azure/vsc-command-palette-git-clone-enter-url.png)
 
-1. Enter the parent directory in which you want Visual Studio Code to clone the sample's repository. For example, if you enter a directory of `c:\users\yourname\source\repos`, the sample app's files are cloned into a directory named `c:\users\yourname\source\repos\node-todo`. Once cloned, your local copy of the files will be displayed in the Visual Studio Code Explorer pane.
+1. Enter the parent directory in which you want Visual Studio Code to clone the sample's repository. For example, if you enter a directory of `c:\users\yourname\source\repos`, the sample app's files are cloned into a directory named `c:\users\yourname\source\repos\node-todo`. Once cloned, your local copy of the files display in the Visual Studio Code Explorer pane.
 
 	![Visual Studio Code Explorer pane](media/tutorial-create-node-documentdb-app-in-azure/vsc-explorer.png)
 
+1. Now that you have cloned (downloaded) the latest version of the sample todo app, you need to ensure that all of the sample app's dependencies are installed. Press **&lt;Ctrl>\`** to display the Visual Studio Code integrated terminal, enter `npm install`, and press **&lt;Enter>**.
+
+	![Visual Studio Code integrated terminal](media/tutorial-create-node-documentdb-app-in-azure/vsc-terminal.png) 
+
+1. 
