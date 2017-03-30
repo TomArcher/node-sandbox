@@ -45,4 +45,13 @@ In order to effectively run through this tutorial, you need to have the followin
 
 1. Enter `gitcl` to find the `Git: Clone` command, and press **&lt;ENTER>**.
 
+	![Visual Studio Code command palette, Git Clone command](media/tutorial-create-node-documentdb-app-in-azure/vsc-command-palette-git-clone.png)
+
+1. Enter `https://github.com/scotch-io/node-todo` into the prompt and press **&lt;ENTER>**.
+
+	![Visual Studio Code command palette, Git Clone command, enter Git URL](media/tutorial-create-node-documentdb-app-in-azure/vsc-command-palette-git-clone-enter-url.png)
+
+1. Enter the parent directory in which you want Visual Studio Code to clone the sample's repository. For example, if you enter a directory of `c:\users\yourname\source\repos`, the sample app's files are cloned into a directory named `c:\users\yourname\source\repos\node-todo`. Once cloned, your local copy of the files will be displayed in the Visual Studio Code Explorer pane.
+
+	![Visual Studio Code Explorer pane](media/tutorial-create-node-documentdb-app-in-azure/vsc-explorer.png)
 
